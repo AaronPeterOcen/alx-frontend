@@ -178,7 +178,8 @@ template {
   --section-title-color: var(--color-black);
 }
 
-*::before,
+*,
+*:before,
 *:after {
   box-sizing: border-box;
 }
